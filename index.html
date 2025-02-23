@@ -1,0 +1,45 @@
+<!-- HTML per al menú de Pacman -->
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman - Menú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ffd700;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5em;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benvingut al Pacman</h1>
+    <p><strong>Crèdits:</strong> Creat per [Nom dels creadors].</p>
+    <p><strong>Recursos gràfics:</strong> Obtinguts de [Font de les imatges].</p>
+    <a href="scripts/pacman.js" onclick="alert('Entrant al joc');">Jugar</a>
+</body>
+</html>
